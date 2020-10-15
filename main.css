@@ -1,17 +1,8 @@
-head {
-    display: none;
-}
-
-meta {
-    display: none;
-}
-
 html, body {
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    display: block;
 }
 
 body {
@@ -22,36 +13,20 @@ body {
     color: #333;
 }
 
-div.wrapper {
+.wrapper {
     padding-top: 4rem;
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
-div {
-    display: block;
-}
-
-p.quote {
+.quote {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 2.5rem;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-p.author {
+.author {
     font-family: 'Crimson Text', serif;
     font-size: 1.5rem;
     font-style: italic;
-}
-
-small {
-    font-size: smaller;
 }
